@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { RegisterAuth } from './register-auth';
 
@@ -5,9 +6,9 @@ import { RegisterAuth } from './register-auth';
   providedIn: 'root',
 })
 export class AuthService {
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
   signup(obj: RegisterAuth) {
-    console.log(obj);
+    return this.http.post('http://localhost:3000/users', obj);
   }
 }

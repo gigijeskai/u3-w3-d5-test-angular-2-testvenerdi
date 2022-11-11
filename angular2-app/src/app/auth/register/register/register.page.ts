@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { AuthService } from '../../auth.service';
 
 @Component({
   templateUrl: './register.page.html',
@@ -7,12 +8,15 @@ import { NgForm } from '@angular/forms';
 })
 export class RegisterPage implements OnInit {
   @ViewChild('f') form!: NgForm;
+  error = undefined;
 
-  constructor() {}
+  constructor(private authService: AuthService) {}
 
   ngOnInit(): void {}
 
   onSubmit() {
-    console.log(this.form);
+    this.authService
+      .signup(this.form.value)
+      .subscribe((data) => console.log(data));
   }
 }

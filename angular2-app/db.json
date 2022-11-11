@@ -1,4 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "mario.rossi@hotmail.com",
+      "password": "$2a$10$q/Q3G4Bw5nyfzzdTAvoyMONWS/tp8QO6UMWdUpd7tCRLSfz9XxeV6",
+      "firstname": "mario",
+      "lastname": "rossi",
+      "id": 1
+    }
+  ],
   "posts": []
 }
