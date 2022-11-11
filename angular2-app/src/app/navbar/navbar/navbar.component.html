@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Angular</a>
     <button
@@ -15,22 +15,59 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="#"
+            [routerLink]="['/home']"
+            routerLinkActive="router-link-active"
+            >Home</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Active posts</a>
+          <a
+            class="nav-link"
+            href="#"
+            [routerLink]="['/active-posts']"
+            routerLinkActive="router-link-active"
+            >Active posts</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Inactive posts</a>
+          <a
+            class="nav-link"
+            href="#"
+            [routerLink]="['/inactive-posts']"
+            routerLinkActive="router-link-active"
+            >Inactive posts</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Users</a>
+          <a
+            class="nav-link"
+            href="#"
+            [routerLink]="['/users']"
+            routerLinkActive="router-link-active"
+            >Users</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+          <a
+            class="nav-link"
+            href="#"
+            [routerLink]="['/login']"
+            routerLinkActive="router-link-active"
+            >Login</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Register </a>
+          <a
+            class="nav-link"
+            href="#"
+            [routerLink]="['/register']"
+            routerLinkActive="router-link-active"
+            >Register
+          </a>
         </li>
       </ul>
     </div>
