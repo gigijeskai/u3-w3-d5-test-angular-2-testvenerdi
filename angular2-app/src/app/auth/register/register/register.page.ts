@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Route, Router } from '@angular/router';
 import { AuthService } from '../../auth.service';
 
 @Component({
@@ -16,8 +16,16 @@ export class RegisterPage implements OnInit {
   ngOnInit(): void {}
 
   onSubmit() {
-    this.authService
-      .signup(this.form.value)
-      .subscribe((data) => console.log(data));
+    this.authService.signup(this.form.value).subscribe(
+      (data) => {
+        console.log(data);
+        this.error = undefined;
+        this.router.navigate(['/login']);
+      },
+      (err) => {
+        console.log(err);
+        this.error = err;
+      }
+    );
   }
 }
