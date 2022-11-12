@@ -1,1 +1,14 @@
-<p>inactive-posts works!</p>
+<div class="container mt-5">
+  <div>
+    <app-post-card>
+      <button class="btn btn-primary">Attiva</button>
+      <button
+        [routerLink]="['/inactive-posts']"
+        routerLinkActive="router-link-active"
+        class="btn btn-primary ms-3"
+      >
+        Dettagli
+      </button>
+    </app-post-card>
+  </div>
+</div>
