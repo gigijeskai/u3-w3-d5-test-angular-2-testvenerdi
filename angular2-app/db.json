@@ -6,6 +6,13 @@
       "firstname": "mario",
       "lastname": "rossi",
       "id": 1
+    },
+    {
+      "email": "luigindaco@gmail.com",
+      "password": "$2a$10$a.8YBWDDfXVG2O4a4IRPUen.YeIOJ3Gcsa6Fp6k3WwBSjECgGKa4m",
+      "firstname": "Luigi",
+      "lastname": "Indaco",
+      "id": 2
     }
   ],
   "posts": []
