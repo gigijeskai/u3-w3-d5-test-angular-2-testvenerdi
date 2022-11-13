@@ -16,6 +16,7 @@ import { UsersDetailsPage } from './pages/users-details/users-details.page';
 import { UsersPage } from './pages/users/users.page';
 import { AuthModule } from './auth/auth.module';
 import { PostCardComponent } from './components/post-card/post-card.component';
+import { CarouselComponent } from './pages/home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     UsersDetailsPage,
     UsersPage,
     PostCardComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
