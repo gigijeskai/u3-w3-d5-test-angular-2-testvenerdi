@@ -9,7 +9,7 @@ import { AuthService } from '../../auth.service';
 })
 export class RegisterPage implements OnInit {
   @ViewChild('f') form!: NgForm;
-  error = undefined;
+  error: undefined;
 
   constructor(private authService: AuthService, private router: Router) {}
 

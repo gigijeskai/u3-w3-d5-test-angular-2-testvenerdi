@@ -13,7 +13,68 @@
       "firstname": "Luigi",
       "lastname": "Indaco",
       "id": 2
+    },
+    {
+      "email": "aldo@hotmail.com",
+      "password": "$2a$10$.zM6qsgi2P2WCEuO5DbQkO7vAUgekMBrEFbwh1MQuP2EL1Qf2YCD6",
+      "firstname": "aldo",
+      "lastname": "baglio",
+      "id": 3
+    },
+    {
+      "email": "prova@example.com",
+      "password": "$2a$10$OOXbJplIf/KehE92KfSvGui87F518XZlAqr0v5PIOI7x5N18T7mcC",
+      "firstname": "prova",
+      "lastname": "prova",
+      "id": 4
+    },
+    {
+      "email": "mariorossi@example.com",
+      "password": "$2a$10$hPV.iH.vejSDZZ78fTcPGu/nCF57BefEUMWH.B5ojBPdhvu3/9zcO",
+      "firstname": "mario",
+      "lastname": "rossi",
+      "id": 5
+    },
+    {
+      "email": "prova@gmail.com",
+      "password": "$2a$10$oz8Tj4MI5DR5S7n7w.O2L.b4CH6.r.4g2cHFrn2y90PkPB4lSxiVq",
+      "firstname": "prova",
+      "lastname": "prova",
+      "id": 6
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": 1,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "news",
+      "author": "marcoss"
+    },
+    {
+      "id": 2,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "education",
+      "author": "Lusa"
+    },
+    {
+      "id": 3,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "politic",
+      "author": "Carlo"
+    },
+    {
+      "id": 4,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "news",
+      "author": "Mario"
+    }
+  ]
 }

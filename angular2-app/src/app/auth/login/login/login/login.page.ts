@@ -7,9 +7,8 @@ import { AuthService } from 'src/app/auth/auth.service';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  error = undefined;
   @ViewChild('f') form!: NgForm;
-  router: any;
+  error: undefined;
 
   constructor(private authService: AuthService) {}
 
@@ -23,7 +22,7 @@ export class LoginPage implements OnInit {
       },
       (err) => {
         console.log(err);
-        this.error = err;
+        this.error = err.error;
       }
     );
   }
